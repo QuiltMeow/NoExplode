@@ -1,0 +1,13 @@
+SET NAMES utf8mb4;
+SET FOREIGN_KEY_CHECKS = 0;
+
+DROP TABLE IF EXISTS `free_death`;
+CREATE TABLE `free_death`  (
+  `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NULL DEFAULT NULL,
+  `remaining` int(10) UNSIGNED NULL DEFAULT NULL,
+  PRIMARY KEY (`id`) USING BTREE,
+  INDEX `name`(`name`(191)) USING BTREE
+) ENGINE = InnoDB AUTO_INCREMENT = 2 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_unicode_ci ROW_FORMAT = Compact;
+
+SET FOREIGN_KEY_CHECKS = 1;

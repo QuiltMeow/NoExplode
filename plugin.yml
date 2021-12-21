@@ -1,0 +1,96 @@
+name: NoExplode
+# TODO : 命名為 com.meow.smallquilt.plugin.NoExplode.Main
+main: ew.sr.x1c.quilt.meow.plugin.NoExplode.Main
+version: 0.02
+author: EW_Quilt
+website: http://www.quilt.idv.tw/
+api-version: 1.16
+depend: [ProtocolLib]
+softdepend: [CMI, PlaceholderAPI, Vault, QuiltCalculatorAPI, JFreeChartAPI, ID-Library, dynmap]
+description: No Explode Plugin
+commands:
+    respawn:
+        description: 極限模式復活指令
+    suicide:
+        description: 自殺指令
+    freecam:
+        description: 觀察者模式切換
+    sign:
+        description: 告示牌修改指令
+    glow:
+        description: 附魔效果指令
+    icon:
+        description: 自訂圖片渲染地圖
+    uuid:
+        description: 查詢玩家 UUID
+    uptime:
+        description: 顯示伺服器運行時間
+    forcechat:
+        description: 強制玩家對話
+    fixpig:
+        description: 移除豬人仇恨
+    meow:
+        description: 喵喵叫
+    here:
+        description: 顯示所在位置
+    music:
+        description: 音樂播放器
+    find:
+        description: 找尋目標玩家所在位置
+    circle:
+        description: 圓型特效
+    line:
+        description: 直線特效
+    peek:
+        description: 界伏盒 / 終界箱預覽指令
+    noai:
+        description: 實體 AI 控制
+    mspt:
+        description: 顯示伺服器每 Tick 執行時間 (毫秒)
+    call:
+        description: 標註其他玩家
+    uptimefirst:
+        description: 顯示距第一次開服伺服器運行時間
+    dice:
+        description: 隨機數值指令
+    niko:
+        description: 騷擾孫北
+    calculate:
+        description: 就只是個計算機
+        aliases: [calc]
+    wiki:
+        description: 搜尋 Minecraft Wiki
+    say:
+        description: 發送訊息
+    sayconsole:
+        description: 發送主控台訊息
+        aliases: [sayc]
+    shutdown:
+        description: 伺服器關閉倒數
+    placeholder:
+        description: 解析 Place Holder API 參數
+        aliases: [ph]
+    limiter:
+        description: 玩家指令限制功能
+    love:
+        description: 愛心特效
+    blockcount:
+        description: 方塊計算
+    armorhide:
+        description: 裝備隱藏功能
+    findid:
+        description: 道具 ID 查詢
+    notice:
+        description: 發送伺服器公告
+    death:
+        description: 母湯次數查詢
+    prefix:
+        description: 聊天前綴控制指令
+    testmode:
+        description: 測試模式指令
+    tag:
+        description: 聊天稱號指令
+    norain:
+        description: 關閉下雨天氣效果
+    crash:
+        description: 崩潰客戶端
